@@ -1,5 +1,6 @@
-
 package org.pruebadiagnostica;
+
+import org.pruebadiagnostica.views.Menu;
 
 /**
  *
@@ -13,7 +14,9 @@ public class pruebadiagnostica {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello word");
-        
+        Menu menus = new Menu();
+        menus.menu();
+
     }
-    
+
 }

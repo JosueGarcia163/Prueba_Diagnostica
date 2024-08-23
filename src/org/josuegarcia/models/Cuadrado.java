@@ -5,8 +5,8 @@ public class Cuadrado extends Forma {
     public Cuadrado() {
     }
 
-    public Cuadrado(int color, int longitud, int altura) {
-        super(color, longitud, altura);
+    public Cuadrado(int color, int longitud, int altura, int radio) {
+        super(color, longitud, altura, radio);
     }
 
     @Override
