@@ -39,6 +39,10 @@ public abstract class Empleados {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-
     
+    public abstract void trabajar();
+
+    public void trabajar(int horas){
+        System.out.println("Trabajo por: " + horas + "horas. ");
+    }
 }
